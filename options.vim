@@ -33,7 +33,7 @@ set linebreak 				" Avoid wrapping a line in the middle of a word
 set encoding=utf-8		" Use an encoding that supports unicode
 set scrolloff=5 			"The number of screen lines to keep above and below the cursor
 set sidescrolloff=1 	"The number of screen columns to keep to the left and right of the cursor.
-syntax enable							"Enable syntax highlighting
+syntax enable					"Enable syntax highlighting
 set nowrap						"Enable/Disable line wrapping.
 
 "Miscellaneous
