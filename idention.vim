@@ -8,3 +8,4 @@ set shiftwidth=2			        "When shifting, indent using n spaces
 set smarttab					    "Insert “tabstop” number of spaces when the “tab” key is pressed
 set tabstop=2					    "Indent using n spaces
 set cindent
+set modelines=0                     "Turn off modelines
