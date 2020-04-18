@@ -1,12 +1,11 @@
 let g:nvim_config_root = stdpath('config')
 let g:config_file_list = [
 		\'plugins',
-		\'options',
 		\'maps',
 		\'idention',
 		\'search',
 		\'performance',
-		\'text-render',
+		\'textrender',
 		\'interface',
 		\'folding',
 		\'miscellaneous'
