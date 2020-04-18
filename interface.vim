@@ -17,7 +17,7 @@ set list
 set listchars=tab:›\ ,trail:•,extends:#,nbsp:.
 
 "coc
-set cmdheight=2									"Give more space for displaying messages.
+"set cmdheight=2									"Give more space for displaying messages.
 set shortmess+=c								"Don't pass messages to ins-completion-menu.
 set signcolumn=yes							"Always show the signcolumn, otherwise it would shift the text each time diagnostics appear/become resolved.
 highlight clear SignColumn
