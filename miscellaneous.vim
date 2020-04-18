@@ -1,5 +1,7 @@
 "config file for miscellaneous
-
+set nocompatible
+filetype off
+filetype plugin indent on
 set autoread                    "Automatically re-read files if unmodified inside Vim.
 set backspace=indent,eol,start  "Allow backspacing over indention, line breaks and insertion start.
 set backupdir=~/.cache/vim      "Directory to store backup files.
@@ -14,6 +16,4 @@ set nrformats-=octal            "Interpret octal as decimal when incrementing nu
 set shell                       "The shell used to execute commands.
 set spell                       "Enable spellchecking.
 set wildignore+=.pyc,.swp       "Ignore files matching these patterns when opening files based on a glob pattern.
-
-set showcmd 
-set showmatch
+set autowrite                   "Automatically save before commands like :next and :make
